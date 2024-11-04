@@ -21,13 +21,12 @@ const Chatbot = () => {
     
     // Send request to backend
     try {
-      const response = await axios.post("https://about-me-zqo7.onrender.com", { message: userInput });
+      const response = await axios.post("https://about-me-t0vq.onrender.com/api/chat", { message: userInput });
       // const response = await axios.post("/api/chat", { message: userInput });
       setMessages([...newMessages, { text: response.data.reply, sender: "bot" }]);
     } catch (error) {
       setMessages([...newMessages, { text: "Sorry, something went wrong.", sender: "bot" }]);
     }
-    
     setUserInput("");
   };
   
