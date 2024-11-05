@@ -1,170 +1,265 @@
-body{
+/* General Reset */
+body {
   padding: 0;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
 }
 
-body, .CopyRight{
-  background-color: #1c1a1a;
-  color: white;
+/* Typography */
+h1, h2, h3, h4, .Project-Heading {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
 }
 
-.banner {
-  padding: 50px 0;
-  
+h1 {
+  font-size: 2.8rem;
 }
 
-.Icons{
+h2 {
+  font-size: 2.2rem;
+}
+
+p, .about-p, .footer p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.Navbar {
+  background-color: #333333;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Icons, .Anchor-tag {
   text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 25px;
+  color: #e0e0e0;
+  font-size: 1.2rem;
+  transition: color 0.3s;
 }
+
+.Icons:hover, .Anchor-tag:hover {
+  color: #64ffda;
+}
+
+.img{
+  align-items: end;
+}
+
+/* Banner Section */
+.banner {
+  padding: 80px 0;
+  text-align: center;
+  background: linear-gradient(145deg, #212121, #121212);
+}
+
+.banner h1 {
+  font-size: 3.5rem;
+  color: #64ffda;
+}
+
+.banner p {
+  color: #bdbdbd;
+  font-size: 1.2rem;
+  margin: 10px 0 30px;
+}
+
+.btn-primary {
+  background-color: #64ffda;
+  color: #121212;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #52c7b8;
+  transform: scale(1.05);
+}
+
+
+/* Header styling */
+.headers {
+  padding: 0 5rem;
+  /* background-color: #52c7b8; */
+  height: 86.5vh;
+}
+
+/* Navbar */
+.navbar-light .navbar-toggler {
+  border-color:#64ffda; /* Adjust to match your theme */
+}
+/* Image column styling */
+.img {
+  display: flex;
+  justify-content:right;
+  padding-left: 50px;
+  /* align-items: first baseline; */
+  height: 100%;
+}
+
+.custom-img {
+  height: 100%; /* Set this to the desired height, or use specific values like '400px' */
+  object-fit: cover; /* Ensures the image maintains its aspect ratio while filling the height */
+  max-height: 800px; /* Optional: limits the height if it exceeds the desired space */
+}
+
+
+.pic {
+  width: 355px; /* Adjust size as needed */
+  /* height: 355px;
+  border-radius: 50%; */
+  object-fit: cover;
+  padding-bottom: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Optional shadow for effect */
+}
+
+/* Text column styling */
+.banner-1 {
+  font-size: 1.5rem;
+  color: #64ffda; /* Accent color */
+}
+
+.banner-2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+.banner-p {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin-top: 10px;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #64ffda;
+  border: none;
+  color: #121212;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #52c7b8;
+}
+
+.Anchor-tag {
+  color: inherit;
+  text-decoration: none;
+}
+
+.download_CV {
+  display: inline-flex;
+  align-items: center;
+}
+
+
+
+
+/* Sections */
+.outercontanner {
+  padding: 0 5rem;
+}
+
+.about {
+  background-color: #1e1e1e;
+  padding: 50px 0;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.about h2 {
+  color: #64ffda;
+}
+
+.about-p {
+  padding: 0 20px;
+  color: #bdbdbd;
+}
+
+/* Skills, Projects, and Resume */
+.skill, .resume-item {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.view_Project {
+  color: #64ffda;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.view_Project:hover {
+  color: #52c7b8;
+}
+
+.my-Education {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.my-Education .resume-item {
+  width: 45%;
+}
+
+.resume-item:hover, .skill:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+.footer {
+  background-color: #212121;
+  padding: 20px 0;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.footer1 {
+  background-color: #333333;
+}
+
+.footer a {
+  color: #64ffda;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #52c7b8;
+}
+
 
 .social-link{
   display: block;
   align-items: center;
   text-align: center;
 }
-
-.view_Project{
-  text-decoration: underline;
-  color: #f37676 ;
-}
-
-.Anchor-tag{
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-.Navbar{
-  background-color: #441d23;
-  color: #ffffff;
-}
-
-.Project-Heading{
-  margin-bottom: 0.8rem;
-}
-
-.my-Education .resume-item{
-  width: 45%;
-}
-
-.my-Education{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.my-Education-h3{
-  display: block;
-  width: 100%;
-}
-
-.about {
-  background-color: #481d23; 
-  color: white;
-  padding: 40px 0;
-  margin-top: 40px;
-}
-.about-p{
-  padding: 20px;
-}
-
-.skill {
-  background-color: #481d23;
-  border: 1px solid #ffffff;
-  color: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-
-.resume-item {
-  background-color: #481d23;
-  color: white;
-  border: 1px solid #cbc6c6;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-
-.footer {
-  background-color: #343a40; 
-  color: #ffffff;
-  /* padding: 40px 0; */
-}
-
-.footer a {
-  color: #ffffff;
-}
-
-.footer a:hover {
-  color: #adb5bd;
-}
-
-.btn-primary {
-  background-color: #441d23;
-  border: none;
-}
-
-.btn-primary:hover {
-  background-color: #73373f;
-}
-.download_CV{
-  text-decoration: none;
-}
-.text-primary{
-  color: #4A4A4A;
-}
-/* Footer Styles */
-.footer {
-  background-color: #343a40; /* Dark background color */
-  color: #ffffff; /* White text color */
-  /* padding:  */
-  height: 50px;
-}
-
-.footer p {
-  margin: 0;
-}
-.footer1{
-
-  background: #481d23;
-}
-.img1{
-  padding-top: 3rem;
-}
-
-.pic{
-  height:40%;
-  width: 40%;
-  /* padding: 1rem; */
-  opacity: 0.9;
-  margin: 2rem;
-}
-@media(min-width:900px){
-  .container .img{
-      text-align: right;
-  }
-  .py-5 .mt-4{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly                       ;
-  }
-}
-
-
-
-/* Chatbot CSS  */
-
+/* Chatbot Styling */
 .chatbot-container {
   position: fixed;
   bottom: 20px;
   right: 10px;
-  color: #000000;
 }
 
 .chat-icon {
-  background-color: #ffffff;
+  background-color: #64ffda;
+  color: #121212;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -172,93 +267,145 @@ body, .CopyRight{
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .chatbox {
   width: 300px;
   height: 400px;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #333333;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  color: #e0e0e0;
 }
 
 .chatbox-header {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #64ffda;
+  color: #121212;
   padding: 10px;
   text-align: center;
+  font-weight: bold;
 }
 
 .chatbox-body {
   flex: 1;
   padding: 10px;
   overflow-y: auto;
-  /* background-color: #a3a1a1; */
+  background-color: #1f1f1f;
 }
 
 .chatbox-footer {
   display: flex;
   padding: 10px;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #444444;
 }
 
-.chatbox-footer input{
+.chatbox-footer input {
   flex: 1;
-  padding: 5px;
-  border: 1px solid #000000;
+  padding: 8px;
+  border: 1px solid #333333;
   border-radius: 5px;
-  margin-right: 5px;
+  background-color: #2c2c2c;
+  color: #e0e0e0;
 }
 
 .chatbox-footer button {
   padding: 5px 10px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #64ffda;
+  color: #121212;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.message {
-  margin: 5px 0;
-  padding: 8px;
-  border-radius: 4px;
-  /* background-color: #007bff; */
+.chatbox-footer button:hover {
+  background-color: #52c7b8;
 }
 
 .message.user {
-  background-color: #dcf8c6;
+  background-color: #64ffda;
+  color: #121212;
   align-self: flex-end;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 5px 0;
 }
 
 .message.bot {
-  background-color: #f1f0f0;
-  align-self: flex-start;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 5px 0;
 }
-/* CHatBox CSS */
 
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
+.HeaderText{
+  
+}
 
-@media (max-width: 900px){
-  .my-Education{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
+/* Responsive Design */
+@media (max-width: 900px) {
+  .outercontanner {
+    padding: 0 2rem;
   }
-
-  .my-Education .resume-item{
-      width: 100%;
+  .my-Education {
+    flex-direction: column;
+    align-items: center;
+  }
+  .my-Education .resume-item {
+    width: 100%;
   }
   .chatbox {
     width: 260px;
     height: 350px;
   }
   .chat-icon {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
+  }
+  .pic {
+    width: 250px; /* Adjust size as needed */
+    height: 250px;
+    border-radius: 50%;
+  } 
+  .img {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-left: 0px; 
+    /* align-items: first baseline; */
+    height: 20%;
+  }
+  .headers {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: #52c7b8; */
+    height: 86.5vh;
   }
 }
+
+/* Layout adjustments for larger screens */
+@media (max-width: 380px) {
+  .pic {
+    width: 160px; /* Adjust size as needed */
+    height: 160px;
+    border-radius: 50%;
+    padding-top: 0.2rem;
+  } 
+  
+}
+  /* .row {
+      display: flex;
+      align-items: center;
+  } */
+
