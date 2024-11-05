@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.4eedcb4b.css",
-    "main.js": "/static/js/main.20c0f18f.js",
+    "main.css": "/static/css/main.32368ac9.css",
+    "main.js": "/static/js/main.7c2d7704.js",
     "static/js/453.aa3c12e1.chunk.js": "/static/js/453.aa3c12e1.chunk.js",
-    "static/media/Profile-pic.png": "/static/media/Profile-pic.b5bcd3bab784aaa24ce8.png",
     "static/media/Computer Science MeteBootcamp(Certificate).jpg": "/static/media/Computer Science MeteBootcamp(Certificate).28a43133293d4fdf231b.jpg",
     "static/media/Mastering C & C++ programing.jpg": "/static/media/Mastering C & C++ programing.040bbc13f456c19b9080.jpg",
+    "static/media/Untitled_Design1.png": "/static/media/Untitled_Design1.fc9187ab5f0b02738c28.png",
     "static/media/USK-infotech.png": "/static/media/USK-infotech.303422ac22ccd10e47f8.png",
     "static/media/javaScript certificate.jpg": "/static/media/javaScript certificate.2fe8567742aff04c256d.jpg",
     "static/media/NodeJs.webp": "/static/media/NodeJs.1ead21886a02014fc2b5.webp",
     "index.html": "/index.html",
-    "main.4eedcb4b.css.map": "/static/css/main.4eedcb4b.css.map",
-    "main.20c0f18f.js.map": "/static/js/main.20c0f18f.js.map",
+    "main.32368ac9.css.map": "/static/css/main.32368ac9.css.map",
+    "main.7c2d7704.js.map": "/static/js/main.7c2d7704.js.map",
     "453.aa3c12e1.chunk.js.map": "/static/js/453.aa3c12e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eedcb4b.css",
-    "static/js/main.20c0f18f.js"
+    "static/css/main.32368ac9.css",
+    "static/js/main.7c2d7704.js"
   ]
 }
