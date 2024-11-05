@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Deepb4u/Deep-s-Portfolio.git/static/css/main.32368ac9.css",
-    "main.js": "/Deepb4u/Deep-s-Portfolio.git/static/js/main.f421830e.js",
-    "static/js/453.aa3c12e1.chunk.js": "/Deepb4u/Deep-s-Portfolio.git/static/js/453.aa3c12e1.chunk.js",
-    "static/media/Computer Science MeteBootcamp(Certificate).jpg": "/Deepb4u/Deep-s-Portfolio.git/static/media/Computer Science MeteBootcamp(Certificate).28a43133293d4fdf231b.jpg",
-    "static/media/Mastering C & C++ programing.jpg": "/Deepb4u/Deep-s-Portfolio.git/static/media/Mastering C & C++ programing.040bbc13f456c19b9080.jpg",
-    "static/media/Untitled_Design1.png": "/Deepb4u/Deep-s-Portfolio.git/static/media/Untitled_Design1.fc9187ab5f0b02738c28.png",
-    "static/media/USK-infotech.png": "/Deepb4u/Deep-s-Portfolio.git/static/media/USK-infotech.303422ac22ccd10e47f8.png",
-    "static/media/javaScript certificate.jpg": "/Deepb4u/Deep-s-Portfolio.git/static/media/javaScript certificate.2fe8567742aff04c256d.jpg",
-    "static/media/NodeJs.webp": "/Deepb4u/Deep-s-Portfolio.git/static/media/NodeJs.1ead21886a02014fc2b5.webp",
-    "index.html": "/Deepb4u/Deep-s-Portfolio.git/index.html",
-    "main.32368ac9.css.map": "/Deepb4u/Deep-s-Portfolio.git/static/css/main.32368ac9.css.map",
-    "main.f421830e.js.map": "/Deepb4u/Deep-s-Portfolio.git/static/js/main.f421830e.js.map",
-    "453.aa3c12e1.chunk.js.map": "/Deepb4u/Deep-s-Portfolio.git/static/js/453.aa3c12e1.chunk.js.map"
+    "main.css": "/Deep-s-Portfolio/static/css/main.32368ac9.css",
+    "main.js": "/Deep-s-Portfolio/static/js/main.ad43d00b.js",
+    "static/js/453.aa3c12e1.chunk.js": "/Deep-s-Portfolio/static/js/453.aa3c12e1.chunk.js",
+    "static/media/Computer Science MeteBootcamp(Certificate).jpg": "/Deep-s-Portfolio/static/media/Computer Science MeteBootcamp(Certificate).28a43133293d4fdf231b.jpg",
+    "static/media/Mastering C & C++ programing.jpg": "/Deep-s-Portfolio/static/media/Mastering C & C++ programing.040bbc13f456c19b9080.jpg",
+    "static/media/Untitled_Design1.png": "/Deep-s-Portfolio/static/media/Untitled_Design1.fc9187ab5f0b02738c28.png",
+    "static/media/USK-infotech.png": "/Deep-s-Portfolio/static/media/USK-infotech.303422ac22ccd10e47f8.png",
+    "static/media/javaScript certificate.jpg": "/Deep-s-Portfolio/static/media/javaScript certificate.2fe8567742aff04c256d.jpg",
+    "static/media/NodeJs.webp": "/Deep-s-Portfolio/static/media/NodeJs.1ead21886a02014fc2b5.webp",
+    "index.html": "/Deep-s-Portfolio/index.html",
+    "main.32368ac9.css.map": "/Deep-s-Portfolio/static/css/main.32368ac9.css.map",
+    "main.ad43d00b.js.map": "/Deep-s-Portfolio/static/js/main.ad43d00b.js.map",
+    "453.aa3c12e1.chunk.js.map": "/Deep-s-Portfolio/static/js/453.aa3c12e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32368ac9.css",
-    "static/js/main.f421830e.js"
+    "static/js/main.ad43d00b.js"
   ]
 }
