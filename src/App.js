@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import FrontPage from './components/FrontPage';
 import Navbar from './components/Navbar';
@@ -12,22 +12,39 @@ import Chatbot from './components/Chat';
 
 export default function App (){
 
-const [Click, setClick] = useState(1)
+const [Click, setClick] = useState(1);
+const [centerPosition, setCenterPosition] = useState(0);
+
+useEffect(() => {
+  const pageCenter = (document.documentElement.scrollHeight - window.innerHeight) / 2;
+  setCenterPosition(pageCenter);
+}, []);
+
+const scrollToCenter = () => {
+  window.scrollTo({
+    top: centerPosition, 
+    behavior: 'smooth',
+  });
+};
 
 const handleClick = (e) =>{
   if(e.target.id === "about"){
     setClick(1)
+    // scrollToCenter();
     console.log(e.target.id)
   }else if(e.target.id === "Education"){
     setClick(2)
+    // scrollToCenter();
     console.log(e.target.id)
   }else if(e.target.id === "certificate"){
     setClick(3)
+    // scrollToCenter();
     console.log(e.target.id)
   }else if(e.target.id === "Project"){
     setClick(4)
     console.log(e.target)
   }
+  scrollToCenter();
 }
 
   return(

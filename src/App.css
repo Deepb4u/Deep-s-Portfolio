@@ -347,10 +347,6 @@ p, .about-p, .footer p {
   justify-content: space-around;
 }
 
-.HeaderText{
-  
-}
-
 /* Responsive Design */
 @media (max-width: 900px) {
   .outercontanner {
@@ -372,8 +368,8 @@ p, .about-p, .footer p {
     height: 50px;
   }
   .pic {
-    width: 250px; /* Adjust size as needed */
-    height: 250px;
+    width: 220px; /* Adjust size as needed */
+    height: 220px;
     border-radius: 50%;
   } 
   .img {
@@ -395,7 +391,7 @@ p, .about-p, .footer p {
 }
 
 /* Layout adjustments for larger screens */
-@media (max-width: 380px) {
+@media (max-width: 400px) {
   .pic {
     width: 160px; /* Adjust size as needed */
     height: 160px;
