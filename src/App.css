@@ -29,20 +29,44 @@ p, .about-p, .footer p {
 
 /* Navbar */
 .Navbar {
-  background-color: #333333;
+  width: 100%;
+  height: 80px;
+  background-color: #212222;
+  color: #64ffda;
   padding: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
+.Nav-tag{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* display: inline; */
+}
+
+.Navbar-2, .navbar{
+  display: none;
+}
+.heding{
+  width: 40%;
+  display: inline;
+}
+.h2{
+  display: inline;
+}
 .Icons, .Anchor-tag {
   text-decoration: none;
-  color: #e0e0e0;
-  font-size: 1.2rem;
+  color: #000000;
+  font-size: 1.2rem;  
   transition: color 0.3s;
 }
 
 .Icons:hover, .Anchor-tag:hover {
-  color: #64ffda;
+  color: #ffffff;
 }
 
 .img{
@@ -98,9 +122,10 @@ p, .about-p, .footer p {
 .img {
   display: flex;
   justify-content:right;
+  padding-top:100px ;
   padding-left: 50px;
   /* align-items: first baseline; */
-  height: 100%;
+  height: 90%;
 }
 
 .custom-img {
@@ -116,7 +141,7 @@ p, .about-p, .footer p {
   border-radius: 50%; */
   object-fit: cover;
   padding-bottom: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Optional shadow for effect */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); */
 }
 
 /* Text column styling */
@@ -388,6 +413,25 @@ p, .about-p, .footer p {
     /* background-color: #52c7b8; */
     height: 86.5vh;
   }
+  .Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .heding{
+    padding-top: 10px;
+    width: 50%;
+  }
+  .Nav-tag{
+    display: none;
+    /* display: inline; */
+  }
+  
+  .Navbar-2, .navbar{
+    display:inline;
+    z-index: 2;
+  }
+
 }
 
 /* Layout adjustments for larger screens */

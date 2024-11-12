@@ -13,16 +13,15 @@ import Chatbot from './components/Chat';
 export default function App (){
 
 const [Click, setClick] = useState(1);
-const [centerPosition, setCenterPosition] = useState(0);
 
-useEffect(() => {
-  const pageCenter = (document.documentElement.scrollHeight - window.innerHeight) / 2;
-  setCenterPosition(pageCenter);
-}, []);
+// useEffect(() => {
+//   const pageCenter = (document.documentElement.scrollHeight - window.innerHeight) / 2;
+//   setCenterPosition(pageCenter);
+// }, []);
 
 const scrollToCenter = () => {
   window.scrollTo({
-    top: centerPosition, 
+    top:700, 
     behavior: 'smooth',
   });
 };
@@ -49,8 +48,8 @@ const handleClick = (e) =>{
 
   return(
     <div>
-      <FrontPage/>
       <Navbar mode={handleClick} border={Click}/>
+      <FrontPage/>
       {Click===1 ? <About/>:(Click===2 ? <Education/>:(Click===3 ? <Certificate/>:<Project/>))}
       <Connect/>
       <Chatbot/>
