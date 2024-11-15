@@ -7,7 +7,7 @@ const MongoDB = require("../assets/MongoDB.png")
 export default function Education () {
     return(
         <div>
-            <section className="pt-5">
+            <section className="pt-5 ">
             <div className="container">
                 <h3 className="about-h text-center mb-4">A Summary of My Resume</h3>
                 <div className="col">

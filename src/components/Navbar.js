@@ -11,38 +11,38 @@ export default function Navbar (props) {
             </div>
             <div className="Nav-tag" id="navbarNavAltMarkup">
                 <div className={`border-${props.border===1 ? 'bottom' : 'none'} border-5 border-white p-2 NavButton`} >
-                    <a className="Anchor-tag" aria-current="page" href="#" id="about" onClick={props.mode} >About</a>
+                    <a className="Anchor-tag menutags" aria-current="page" href="#" id="about" onClick={props.mode} >About</a>
                 </div>
                 <div className={`border-${props.border===2 ? 'bottom' : 'none'} border-white border-5 p-2 NavButton`}>
-                    <a className="Anchor-tag" href="#" id="Education" onClick={props.mode} >Education</a>
+                    <a className="Anchor-tag menutags" href="#" id="Education" onClick={props.mode} >Education</a>
                 </div>
                 <div className={`border-${props.border===3 ? 'bottom' : 'none'} border-white border-5 p-2 NavButton`}>
-                    <a className="Anchor-tag" id="certificate" href="#" onClick={props.mode} >Certificate</a>
+                    <a className="Anchor-tag menutags" id="certificate" href="#" onClick={props.mode} >Certificate</a>
                 </div>
                 <div className={`border-${props.border===4 ? 'bottom' : 'none'} border-white border-5 p-2 NavButton`}>
-                    <a  className="Anchor-tag" id="Project" href="#" onClick={props.mode} >Projects</a>
+                    <a  className="Anchor-tag menutags" id="Project" href="#" onClick={props.mode} >Projects</a>
                 </div>
             </div>
 
             <div className="collapse Navbar-2" id="navbarToggleExternalContent" data-bs-theme="dark">
-                <div className="bg-dark p-4 menu">
+                <div className=" bg-dark p-4 menu">
                     <div className={`border-${props.border===1 ? 'bottom' : 'none'} border-5 border-white p-2 NavButton`} >
-                        <a className="Anchor-tag" aria-current="page" href="#" id="about" onClick={props.mode} >About</a>
+                        <a className="Anchor-tag menutags" aria-current="page" href="#" id="about" onClick={props.mode} >About</a>
                     </div>
                     <div className={`border-${props.border===2 ? 'bottom' : 'none'} border-white border-5 p-2 NavButton`}>
-                        <a className="Anchor-tag" href="#" id="Education" onClick={props.mode} >Education</a>
+                        <a className="Anchor-tag menutags" href="#" id="Education" onClick={props.mode} >Education</a>
                     </div>
                     <div className={`border-${props.border===3 ? 'bottom' : 'none'} border-white border-5 p-2 NavButton`}>
-                        <a className="Anchor-tag" id="certificate" href="#" onClick={props.mode} >Certificate</a>
+                        <a className="Anchor-tag menutags" id="certificate" href="#" onClick={props.mode} >Certificate</a>
                     </div>
                     <div className={`border-${props.border===4 ? 'bottom' : 'none'} border-white border-5 p-2 NavButton`}>
-                        <a  className="Anchor-tag" id="Project" href="#" onClick={props.mode} >Projects</a>
+                        <a  className="Anchor-tag menutags" id="Project" href="#" onClick={props.mode} >Projects</a>
                     </div>
                 </div>
             </div>
             <nav className="navbar navbar-dark">
                 <div>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
                 </div>

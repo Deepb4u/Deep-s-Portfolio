@@ -3,10 +3,16 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-size: 10px;
   background-color: #121212;
   color: #e0e0e0;
 }
 
+
+.sidecol{
+  width: 40%;
+  padding-bottom: 100px;
+}
 /* Typography */
 h1, h2, h3, h4, .Project-Heading {
   font-weight: 700;
@@ -14,8 +20,13 @@ h1, h2, h3, h4, .Project-Heading {
   margin-bottom: 0.5rem;
 }
 
+.container {
+  width: 80vw; /* 80% of the viewport width */
+}
+
 h1 {
-  font-size: 2.8rem;
+  /* font-size: 2.8rem; */
+  font-size: 5vw;
 }
 
 h2 {
@@ -30,7 +41,7 @@ p, .about-p, .footer p {
 /* Navbar */
 .Navbar {
   width: 100%;
-  height: 80px;
+  height: 65px;
   background-color: #212222;
   color: #64ffda;
   padding: 1rem;
@@ -129,16 +140,16 @@ p, .about-p, .footer p {
 }
 
 .custom-img {
-  height: 100%; /* Set this to the desired height, or use specific values like '400px' */
-  object-fit: cover; /* Ensures the image maintains its aspect ratio while filling the height */
-  max-height: 800px; /* Optional: limits the height if it exceeds the desired space */
+  height: 100%; 
+  object-fit: cover;
+  max-height: 800px;
 }
 
 
 .pic {
-  width: 355px; /* Adjust size as needed */
-  /* height: 355px;
-  border-radius: 50%; */
+  width: 270px; /* Adjust size as needed */
+  height: 450px;
+  /* border-radius: 50%; */
   object-fit: cover;
   padding-bottom: 8px;
   /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); */
@@ -146,20 +157,32 @@ p, .about-p, .footer p {
 
 /* Text column styling */
 .banner-1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #64ffda; /* Accent color */
 }
 
 .banner-2 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #f5f5f5;
 }
 
-.banner-p {
+.banner-4{
   font-size: 1.2rem;
+}
+
+.banner-p {
+  font-size: 0.8rem;
   color: #cccccc;
   margin-top: 10px;
+}
+
+.menutags{
+  font-size: 0.8rem;
+}
+
+.frontBtn{
+  font-size: 1rem;
 }
 
 /* Button styling */
@@ -196,6 +219,11 @@ p, .about-p, .footer p {
   padding: 0 5rem;
 }
 
+.mainContainers{
+  width: 85%;
+  height: 30%;
+}
+
 .about {
   background-color: #1e1e1e;
   padding: 50px 0;
@@ -203,13 +231,14 @@ p, .about-p, .footer p {
   border-radius: 10px;
 }
 
-.about h2 {
-  color: #64ffda;
-}
+
 
 .about-p {
-  padding: 0 20px;
+  /* padding: 0 20px; */
+  padding-left: 40px;
+  padding-right: 90px;
   color: #bdbdbd;
+  font-size: 0.7rem;
 }
 
 /* Skills, Projects, and Resume */
@@ -239,6 +268,13 @@ p, .about-p, .footer p {
   flex-wrap: wrap;
 }
 
+.resume-item-title{
+  font-size: 1.6rem;
+}
+.resume-item-inst{
+  font-size: 1.3rem;
+  font-style: italic;
+}
 .my-Education .resume-item {
   width: 45%;
 }
@@ -279,7 +315,7 @@ p, .about-p, .footer p {
 .chatbot-container {
   position: fixed;
   bottom: 20px;
-  right: 10px;
+  right: 20px;
 }
 
 .chat-icon {
@@ -337,7 +373,7 @@ p, .about-p, .footer p {
 }
 
 .chatbox-footer button {
-  padding: 5px 10px;
+  padding: 5px 6px;
   background-color: #64ffda;
   color: #121212;
   border: none;
@@ -367,6 +403,8 @@ p, .about-p, .footer p {
 }
 
 .row{
+  padding-top: 40px;
+  padding-left: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -431,6 +469,20 @@ p, .about-p, .footer p {
     display:inline;
     z-index: 2;
   }
+  .sidecol{
+    width: 100%;
+    padding-bottom: 0;
+    padding-top: 20px;
+  }
+  .about-p {
+    /* padding: 0 20px; */
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row{
+    padding-left: 0;
+  }
+  
 
 }
 

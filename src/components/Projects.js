@@ -51,7 +51,7 @@ export default function Project () {
                 </div>
             </div>
             <div className="text-center mt-4">
-                <button className="btn btn-primary"><i className="fa-solid fa-download"></i> <a className="download_CV Anchor-tag" href="https://drive.google.com/file/d/1EZ3yPscPDSgdP1Anp2x0IHY1oPdNs9FF/view?usp=drive_link">Download CV</a></button>
+                <button className="btn btn-primary"><i className="fa-solid fa-download"></i> <a className="download_CV Anchor-tag menutags" href="https://drive.google.com/file/d/1EZ3yPscPDSgdP1Anp2x0IHY1oPdNs9FF/view?usp=drive_link">Download CV</a></button>
             </div>
         </>
     )

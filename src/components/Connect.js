@@ -7,11 +7,11 @@ export default function Connect () {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <h3 className="about-h">Let's Connect</h3>
+                        <h3 className="about-h banner-2 ">Let's Connect</h3>
                         <p className="about-p">Please fill out the form in this section to contact me.</p>
                     </div>
                     <div className="col-md-6">
-                        <h3 className="about-h">Message Me</h3>
+                        <h3 className="about-h banner-2">Message Me</h3>
                         <form className="contact">
                             <div className="mb-3">
                                 <input type="text" className="form-control" placeholder="Your Name"/>
@@ -23,7 +23,7 @@ export default function Connect () {
                                 <textarea placeholder="Message" className="form-control" rows="5"></textarea>
                             </div>
                             <div className="text-center mt-4 align-items-center">
-                                <button className="btn btn-primary"><i className="fa-solid fa-download"></i> Submit</button>
+                                <button className="btn btn-primary"><i className="fa-solid fa-download"></i><a className="Anchor-tag menutags" href="#"> Submit </a></button>
                             </div>    
                         </form>
                     </div>
