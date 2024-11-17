@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Deep-s-Portfolio/static/css/main.bfea1f1f.css",
-    "main.js": "/Deep-s-Portfolio/static/js/main.dd898488.js",
+    "main.css": "/Deep-s-Portfolio/static/css/main.fe08bdfc.css",
+    "main.js": "/Deep-s-Portfolio/static/js/main.00d07e43.js",
     "static/js/453.aa3c12e1.chunk.js": "/Deep-s-Portfolio/static/js/453.aa3c12e1.chunk.js",
     "static/media/Computer Science MeteBootcamp(Certificate).jpg": "/Deep-s-Portfolio/static/media/Computer Science MeteBootcamp(Certificate).28a43133293d4fdf231b.jpg",
     "static/media/Mastering C & C++ programing.jpg": "/Deep-s-Portfolio/static/media/Mastering C & C++ programing.040bbc13f456c19b9080.jpg",
@@ -10,12 +10,12 @@
     "static/media/javaScript certificate.jpg": "/Deep-s-Portfolio/static/media/javaScript certificate.2fe8567742aff04c256d.jpg",
     "static/media/NodeJs.webp": "/Deep-s-Portfolio/static/media/NodeJs.1ead21886a02014fc2b5.webp",
     "index.html": "/Deep-s-Portfolio/index.html",
-    "main.bfea1f1f.css.map": "/Deep-s-Portfolio/static/css/main.bfea1f1f.css.map",
-    "main.dd898488.js.map": "/Deep-s-Portfolio/static/js/main.dd898488.js.map",
+    "main.fe08bdfc.css.map": "/Deep-s-Portfolio/static/css/main.fe08bdfc.css.map",
+    "main.00d07e43.js.map": "/Deep-s-Portfolio/static/js/main.00d07e43.js.map",
     "453.aa3c12e1.chunk.js.map": "/Deep-s-Portfolio/static/js/453.aa3c12e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfea1f1f.css",
-    "static/js/main.dd898488.js"
+    "static/css/main.fe08bdfc.css",
+    "static/js/main.00d07e43.js"
   ]
 }

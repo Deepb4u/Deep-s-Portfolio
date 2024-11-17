@@ -14,10 +14,7 @@ export default function App (){
 
 const [Click, setClick] = useState(1);
 
-// useEffect(() => {
-//   const pageCenter = (document.documentElement.scrollHeight - window.innerHeight) / 2;
-//   setCenterPosition(pageCenter);
-// }, []);
+
 
 const scrollToCenter = () => {
   window.scrollTo({

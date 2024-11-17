@@ -3,6 +3,7 @@ const USK_Infotech = require("../assets/USK-infotech.png")
 const Computer_science = require("../assets/Computer Science MeteBootcamp(Certificate).jpg")
 const C_Cpp_Certificate = require("../assets/Mastering C & C++ programing.jpg")
 const JavaScript_Certi = require("../assets/javaScript certificate.jpg")
+const Course_completion = require("../assets/Course Completion Certificate - Deep bansode.png")
 
 export default function Certificate (){
     return(
@@ -23,6 +24,13 @@ export default function Certificate (){
                     </div>
                     <div className="col-md-6 col-lg-5 text-center py-3">
                         <div className="skill">
+                            <img src={Course_completion} className="img-fluid" alt="JavaScript Certification"/>
+                            <h5 className="cert-title mt-3">Course completion Certificate</h5>
+                            <p className="skill-description">Successfully completed Accelerated MERN Stack Development Program </p>
+                        </div>
+                    </div>
+                    <div className="col-md-6 col-lg-5 text-center py-3">
+                        <div className="skill">
                             <img src={Computer_science} className="img-fluid" alt="Computer Science MetaBootcamp"/>
                             <h5 className="cert-title mt-3">Computer Science MetaBootcamp: Beginner to Intermediate 2024</h5>
                         </div>
@@ -36,7 +44,8 @@ export default function Certificate (){
                     <div className="col-md-6 col-lg-5 text-center py-3">
                         <div className="skill">
                             <img src={JavaScript_Certi} className="img-fluid" alt="JavaScript Certification"/>
-                            <h5 className="cert-title mt-3">JavaScript Certification</h5>
+                            <h5 className="cert-title mt-3">JavaScript course certification </h5>
+                            <p className="skill-description">Successfully completed javaScript crash course Program </p>
                         </div>
                     </div>
                 </div>
