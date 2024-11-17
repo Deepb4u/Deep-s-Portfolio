@@ -139,20 +139,11 @@ p, .about-p, .footer p {
   height: 90%;
 }
 
-.custom-img {
-  height: 100%; 
-  object-fit: cover;
-  max-height: 800px;
-}
-
-
 .pic {
-  width: 270px; /* Adjust size as needed */
+  width: 270px; 
   height: 450px;
-  /* border-radius: 50%; */
   object-fit: cover;
   padding-bottom: 8px;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); */
 }
 
 /* Text column styling */
@@ -210,9 +201,6 @@ p, .about-p, .footer p {
   display: inline-flex;
   align-items: center;
 }
-
-
-
 
 /* Sections */
 .outercontanner {
@@ -444,7 +432,7 @@ p, .about-p, .footer p {
     height: 20%;
   }
   .headers {
-    padding: 0 1rem;
+    padding: 0 0.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
