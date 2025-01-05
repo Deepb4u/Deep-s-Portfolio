@@ -1,6 +1,6 @@
 # My Portfolio 🌟
 
-Welcome to my personal portfolio! This project is built using **React** and showcases my projects, skills, and contact information. It is designed to provide an insight into my professional journey and technical expertise.
+Welcome to my personal portfolio! This project showcases my work, skills, and contact information, along with an **interactive chatbot** for enhanced user engagement. Built using **React** for the frontend and **Node.js** for the backend, this portfolio is a complete full-stack application.
 
 ## 🌐 Live Demo
 Check out my live portfolio here: https://deepb4u.github.io/Deep-s-Portfolio/
@@ -10,19 +10,31 @@ Check out my live portfolio here: https://deepb4u.github.io/Deep-s-Portfolio/
 - **Projects Section**: Displays some of the projects I've worked on.
 - **Skills Section**: Highlights my technical skills and expertise.
 - **Contact Form**: Allows users to reach out to me directly.
-- **Interactive UI**: Smooth navigation and modern styling.
+- **Interactive Chatbot**: A Node.js-based chatbot integrated into the portfolio.
+- **Modern UI**: Smooth navigation with an elegant, user-friendly design.
 
 ## 🛠️ Technologies Used
-- **React**: Frontend framework
-- **CSS/SCSS**: Styling
-- **GitHub Pages**: Hosting platform
+### Frontend
+- **React**: For building the user interface
+- **Bootstrap**: For styling
+
+### Backend
+- **Node.js**: For handling chatbot logic
+- **Express.js**: For setting up the backend server
+
+### Deployment
+- **GitHub Pages**: Hosting the frontend
+- **Backend**: Hosted on Render
 
 ## 📂 Project Structure
 ```plaintext
 portfolio/
-├── public/             # Static files
-├── src/                # React components and styles
-│   ├── components/     # Reusable components
-│   ├── assets/         # Images, icons, and other assets
-│   └── App.js          # Main application file
-└── package.json        # Project dependencies
+├── client/             # React frontend files
+│   ├── public/         # Static files
+│   ├── src/            # React components and styles
+│   └── package.json    # React dependencies
+├── server/             # Node.js backend files for chatbot
+│   ├── index.js        # Backend entry point
+│   └── package.json    # Node.js dependencies
+└── package.json        # Root package.json file (optional)
+
