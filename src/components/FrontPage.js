@@ -7,7 +7,7 @@ export default function FrontPage () {
     return(
         <>
         <header >
-            <div className="headers text-center text-lg-start row">
+            <div className="headers text-center text-lg-start rows">
                     <div className=" sidecol col-lg-6 d-flex flex-column justify-content-center">
                         <h3 className="banner-1">Hi, I am</h3>
                         <h1 className="banner-2">Deep Bansode</h1>

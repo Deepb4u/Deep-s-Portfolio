@@ -26,6 +26,9 @@ export default function Navbar (props) {
 
             <div className="collapse Navbar-2" id="navbarToggleExternalContent" data-bs-theme="dark">
                 <div className=" bg-dark p-4 menu">
+                    {/* <div className="heding">
+                        <h2 className="h2" >Deep's <span className="banner-p">Portfolio</span></h2>
+                    </div>*/}
                     <div className={`border-${props.border===1 ? 'bottom' : 'none'} border-5 border-white p-2 NavButton`} >
                         <a className="Anchor-tag menutags" aria-current="page" href="#" id="about" onClick={props.mode} >About</a>
                     </div>

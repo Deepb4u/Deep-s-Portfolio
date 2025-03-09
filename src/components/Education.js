@@ -35,7 +35,7 @@ export default function Education () {
             <div className="container">
                 <h3 className="about-h text-center mb-4">What I Do</h3>
                 <p id="what-i-do" className="section-para text-center"> I specialize in creating dynamic, responsive, and user-friendly web applications. My technical skills include HTML, CSS, JavaScript, Node.js, and Python.I am also proficient in data structures and algorithms, which enables me to write efficient and optimized code.If you are looking for a dedicated software developer who is eager to contribute and grow within your team, feel free to connect with me.</p>
-                <div className="row mt-4 align-items-center">
+                <div className="rows mt-4 align-items-center">
                     <div className="col-md-6 col-lg-3 text-center">
                         <div className="skill">
                             <img src={reactImg} className="img-fluid" alt=""/>

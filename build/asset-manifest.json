@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Deep-s-Portfolio/static/css/main.fe08bdfc.css",
+    "main.css": "/Deep-s-Portfolio/static/css/main.bd0ae5e5.css",
     "main.js": "/Deep-s-Portfolio/static/js/main.1f6b1af7.js",
     "static/js/453.aa3c12e1.chunk.js": "/Deep-s-Portfolio/static/js/453.aa3c12e1.chunk.js",
     "static/media/Course Completion Certificate - Deep bansode.png": "/Deep-s-Portfolio/static/media/Course Completion Certificate - Deep bansode.09a7615bd1f4cc9cdf2a.png",
@@ -11,12 +11,12 @@
     "static/media/javaScript certificate.jpg": "/Deep-s-Portfolio/static/media/javaScript certificate.2fe8567742aff04c256d.jpg",
     "static/media/NodeJs.webp": "/Deep-s-Portfolio/static/media/NodeJs.1ead21886a02014fc2b5.webp",
     "index.html": "/Deep-s-Portfolio/index.html",
-    "main.fe08bdfc.css.map": "/Deep-s-Portfolio/static/css/main.fe08bdfc.css.map",
+    "main.bd0ae5e5.css.map": "/Deep-s-Portfolio/static/css/main.bd0ae5e5.css.map",
     "main.1f6b1af7.js.map": "/Deep-s-Portfolio/static/js/main.1f6b1af7.js.map",
     "453.aa3c12e1.chunk.js.map": "/Deep-s-Portfolio/static/js/453.aa3c12e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe08bdfc.css",
+    "static/css/main.bd0ae5e5.css",
     "static/js/main.1f6b1af7.js"
   ]
 }

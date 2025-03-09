@@ -54,8 +54,3 @@ const handleClick = (e) =>{
     </div>
   )
 }
-
-
-
-// react-scripts start
-// start": "concurrently \"npm run server\" \"npm run client\

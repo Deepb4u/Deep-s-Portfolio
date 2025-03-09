@@ -176,12 +176,20 @@ p, .about-p, .footer p {
   font-size: 1rem;
 }
 
+.menu{
+  z-index: 1;
+  height: 100%;
+  width: 80%;
+  background-color: #1e1e1e;
+}
+
 /* Button styling */
 .btn-primary {
   background-color: #64ffda;
   border: none;
   color: #121212;
   padding: 10px 20px;
+  margin: 15px 5px;
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
@@ -280,7 +288,7 @@ p, .about-p, .footer p {
 }
 
 .footer1 {
-  background-color: #333333;
+  background-color: #212222;
 }
 
 .footer a {
@@ -390,13 +398,23 @@ p, .about-p, .footer p {
   margin: 5px 0;
 }
 
-.row{
+.rows{
   padding-top: 40px;
   padding-left: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+/* sidemenu */
+
+
 
 /* Responsive Design */
 @media (max-width: 900px) {
@@ -453,9 +471,21 @@ p, .about-p, .footer p {
     /* display: inline; */
   }
   
-  .Navbar-2, .navbar{
+  .Navbar-2{
     display:inline;
-    z-index: 2;
+    z-index: 2; 
+    
+  }
+  /* .menu{
+    height: 100vh;
+    width: 100vh;
+  } */
+  
+  .navbar{
+    display:inline;
+    /* z-index: 2; */
+    display: flex;
+    justify-content: right;
   }
   .sidecol{
     width: 100%;
@@ -477,8 +507,8 @@ p, .about-p, .footer p {
 /* Layout adjustments for larger screens */
 @media (max-width: 400px) {
   .pic {
-    width: 160px; /* Adjust size as needed */
-    height: 160px;
+    width: 215px; /* Adjust size as needed */
+    height: 225px;
     border-radius: 50%;
     padding-top: 0.2rem;
   } 

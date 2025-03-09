@@ -65,23 +65,3 @@ const Chatbot = () => {
 
 export default Chatbot;
 
-
-{/* <div className="chatbox">
-<div className="chatbox-header">
-  <h4>Welcome to My Portfolio</h4>
-  <p>How may I help you ?</p>
-</div>
-<div className="chatbox-body">
-  <p>Hello! How can I assist you?</p>
-  {/* Add more chat content or integrate chatbot logic here */}
-// </div>
-// <div className="chatbox-footer">
-// <input
-//     type="text"
-//     value={userInput}
-//     onChange={(e) => setUserInput(e.target.value)}
-//     onKeyPress={(e) => e.key === 'Enter' && handleSend()}
-//     placeholder="Type your message..." />
-//   <button onClick={handleSend}>Send</button>
-// </div>
-// </div> */}
